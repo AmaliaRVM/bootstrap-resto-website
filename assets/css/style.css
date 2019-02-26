@@ -4,15 +4,19 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+.container {
+    height: auto;
+}
 .navbar {
     margin-top: 20px;
 }
 
 .navbar-brand {
     margin-left: 50px;
+    font-size: 30px;
 }
 
-img {
+#palmera {
     height: 200px;
     width: 200px;
     border-radius: 50%;  
@@ -21,7 +25,7 @@ img {
 a {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: black !important;
+    color:#a03522 !important;
 }
 
 button {
@@ -31,4 +35,13 @@ button {
 .jumbotron {
     margin-top: 40px;
     background-color: #f8f9fa;
+    text-align: center;
+}
+
+.row{
+    text-align: center;
+}
+
+.col-sm {
+    text-align: center;
 }
