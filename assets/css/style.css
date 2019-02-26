@@ -36,12 +36,6 @@ button {
     margin-top: 40px;
     background-color: #f8f9fa;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.row{
-    text-align: center;
-}
-
-.col-sm {
-    text-align: center;
-}
