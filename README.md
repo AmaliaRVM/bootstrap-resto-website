@@ -17,7 +17,7 @@ A restaurant website developed with Bootstrap.
 * Responsive Web Design  
 * LightHouse  
 
-*Structure of the website*  
+*Website structure*  
 * Homepage  
 * The menu  
 * Photo gallery (at least 10 photos), 4 photos L screen, 2 photos M screen and 1 photo S screen.  
