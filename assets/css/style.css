@@ -36,14 +36,22 @@
     margin-left: 30px;
 }
 
+.imgmenu {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;  
+
+}
+
+
 a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color:#a03522 !important;
 }
 
 button {
-    background-color: black !important;
+    background-color: #a03522 !important;
 }
 
 .jumbotron {
@@ -53,5 +61,21 @@ button {
     font-family: 'Montserrat', sans-serif;
 }
 
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+h5 {
+    color:  #a03522;
+}
+
+#badgemeat {
+    background-color: #a03522;
+}
 
 
