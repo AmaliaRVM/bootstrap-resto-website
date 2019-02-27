@@ -5,13 +5,11 @@
     background-position: center;
 }
 
-#menu {
-    background-color: #eeefea;
-}
 .container {
     height: auto;
     
 }
+
 .navbar {
     margin-top: 20px;
 }
@@ -36,14 +34,6 @@
     margin-left: 30px;
 }
 
-.imgmenu {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;  
-
-}
-
-
 a {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -59,6 +49,12 @@ button {
     background-color: #f8f9fa;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Menu style */
+
+#menu {
+    background-color: #eeefea;
 }
 
 .card {
@@ -78,4 +74,11 @@ h5 {
     background-color: #a03522;
 }
 
+.list-group-item {
+    text-align: center;
+    color:black;
+    background-color: #eae5e6;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
 
