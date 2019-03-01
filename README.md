@@ -24,6 +24,10 @@ A restaurant website developed with Bootstrap.
 * Location and schedule  
 * Contact  
 
+*JS*
+* Welcome pop-up  
+* Day and opening hours  
+
 ## Timeline  
 The developement of this exercice took place during the seventh week of BeCode training.  
 
