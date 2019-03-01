@@ -12,7 +12,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet"> 
         <title>Bootstrap Resto</title>
     </head>
-    <body id="index">
+    <body id="menu">
         <div class="container">
             <nav class="navbar navbar-light bg-light navbar-expand-lg">
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -38,23 +38,58 @@
                     </ul>
                 </div>        
             </nav>
-            <div class="jumbotron">
-                <div class="row">
-                    <div class="col-sm">
-                        <img id="palmera" src="assets/images/MCpalmera.jpg" alt="The photo of a kind of a root">
-                    </div>
-                    <div class="col-sm">
-                        <a href="#" class="navbar-brand">Sobre la Mesa</a>
-                    </div>
+            <div id="textcontact"  class="row">
+                <div id="textcontact2" class="col-sm">
+                    <h4>Feel free to contact us</h4>
+                    <p>
+                        Weather you want to become a partner, or you have questions about the project
+                        or you like our food, or you have a complaint...every constructive comment is welcome.
+                    </p> 
                 </div>
-            </div>   
+                <div class="col-sm">
+                    <img id="palmeracontact" src="assets/images/MCpalmera.jpg" alt="The photo of a kind of a root">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label" for="name">Name</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label" for="lastname">Lastname</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="lastname">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label" for="Email Address">Email Address</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="Email Address">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label"  for="Type of message">Type of Message</label>
+                <div class="col-sm-9">
+                    <select class="form-control" id="Type of message">
+                        <option>Hello</option>
+                        <option>I love the food</option>
+                        <option>Customer Service</option>
+                        <option>Complaint</option>
+                        <option>Partnership</option>
+                    </select> 
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label" for="Message">Message</label>
+                <div class="col-sm-9">
+                    <textarea class="form-control" id="Message" rows="3"></textarea>
+                </div>
+            </div>
         </div>
-        
-
-
         <!-- Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
     </body>
-</html>
+</html>      

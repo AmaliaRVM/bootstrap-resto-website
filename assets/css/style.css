@@ -82,3 +82,26 @@ h5 {
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
+/* Contact style */
+
+#palmeracontact {
+    height: 550px;
+    width: 550px;
+}
+
+#textcontact {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#textcontact2 {
+    margin-top: 20%;
+    padding-right: 170px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+label {
+    color: #a03522;
+    font-family: 'Montserrat', sans-serif;
+}
