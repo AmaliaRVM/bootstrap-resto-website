@@ -116,3 +116,18 @@ label {
     border: solid #a03522;
     color: black;
 }
+
+.gallery {
+    height: 600px;
+    width: 800px;
+}
+
+#gallery1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#gallery2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
