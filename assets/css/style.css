@@ -7,6 +7,7 @@
 
 .container {
     height: auto;
+    margin-bottom: 40px;
     
 }
 
@@ -35,12 +36,13 @@
 }
 
 a {
+    margin-right: 40px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color:#a03522 !important;
 }
 
-button {
+#buttonmenu {
     background-color: #a03522 !important;
 }
 
@@ -96,12 +98,18 @@ h5 {
 
 #textcontact2 {
     margin-top: 20%;
-    padding-right: 170px;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
+    padding-right: 170px;
 }
 
 label {
     color: #a03522;
     font-family: 'Montserrat', sans-serif;
+}
+
+#buttonsend {
+    background-color:#f8f9fa;
+    border: solid #a03522;
+    color: black;
 }
