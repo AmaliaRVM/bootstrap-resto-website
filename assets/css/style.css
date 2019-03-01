@@ -21,7 +21,10 @@
     padding-top: 85px;
 }
 
-
+.popUp {
+    color: #a03522;
+    margin-top: 20px;
+}
 #palmera {
     height: 250px;
     width: 250px;
