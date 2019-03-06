@@ -31,4 +31,7 @@ A restaurant website developed with Bootstrap.
 ## Timeline  
 The developement of this exercice took place during the seventh week of BeCode training.  
 
+## Work in progress  
+This is a work in progress website, so at the time this exercices was submit there still some issues to be solved and features to be completed.
+
 
